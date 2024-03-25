@@ -494,6 +494,11 @@ ul.social  {
   gap: 16px;
 }
 
+.social.social--footer   a:hover,
+.social.social--footer   a:focus {
+  background-color: var(--success-color);
+}
+
 .social a {
   display: flex;
   background-color: var(--primary-brand-color);
